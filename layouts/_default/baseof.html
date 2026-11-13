@@ -10,8 +10,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
-    <script src="{{ "js/gallery.js" | relURL }}" defer></script>
+    {{ $css := resources.Get "css/style.css" | fingerprint }}
+    {{ $js := resources.Get "js/gallery.js" | fingerprint }}
+    <link rel="stylesheet" href="{{ $css.RelPermalink }}">
+    <script src="{{ $js.RelPermalink }}" defer></script>
   </head>
   <body>
     {{ block "main" . }}{{ end }}

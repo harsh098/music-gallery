@@ -8,7 +8,7 @@
     <span class="cover__serial">LISTEN / {{ printf "%02d" .index }}</span>
   </div>
   <div class="song-card__body">
-    <div class="song-card__eyebrow"><span>{{ $song.genre }}</span><span class="dot"></span><span>{{ $song.year }}</span></div>
+    <div class="song-card__eyebrow"><span>{{ $song.genre }}</span>{{ with $song.year }}<span class="dot"></span><span>{{ . }}</span>{{ end }}</div>
     <div class="song-card__title-row">
       <div>
         <h3>{{ $song.title }}</h3>
@@ -17,7 +17,7 @@
       {{ if $featured }}<span class="favorite-mark" aria-label="Metal spotlight pick">★</span>{{ end }}
     </div>
     {{ if $featured }}<p class="song-card__note">“{{ $song.note }}”</p>{{ end }}
-    <div class="song-card__footer"><span>{{ $song.album }}</span><span>{{ $song.mood }}</span></div>
+    <div class="song-card__footer"><span>{{ $song.album }}</span><span>{{ $song.source }}</span></div>
     {{- $query := printf "%s %s" $song.title $song.artist | urlquery -}}
     {{- $spotify := printf "https://open.spotify.com/search/%s" $query -}}
     {{- $youtubeMusic := printf "https://music.youtube.com/search?q=%s" $query -}}

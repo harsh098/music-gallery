@@ -5,6 +5,6 @@ disableKinds = ['taxonomy', 'term', 'RSS']
 
 [params]
   description = 'A personal gallery for the songs that stay with you.'
-  curator = 'YOUR NAME'
-  genres = ['Heavy Metal', 'Nu Metal', 'NWOBHM', 'Metalcore', 'Death Metal', 'Hindi Rock', 'Ghazals', 'Classic Hindi', '2000s Pop & Rap', 'NFS Soundtrack', '2010s EDM']
+  curator = 'Harsh M'
+  genres = ['Industrial Metal', 'Death Metal', 'Heavy Metal', 'Nu Metal', 'Linkin Park', 'Metalcore', 'NWOBHM', 'Alternative Rock', 'Hindi Rock', 'Ghazals', 'Classic Hindi', '2000s Pop & Rap', 'NFS Soundtrack', '2010s EDM']
 

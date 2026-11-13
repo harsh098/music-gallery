@@ -17,3 +17,20 @@
 .genre-group__heading{display:flex;align-items:baseline;justify-content:space-between;gap:20px;padding-bottom:16px;border-bottom:1px solid var(--line);margin-bottom:18px}
 .genre-group__heading h3{font-family:var(--font-display);font-size:clamp(32px,3.1vw,47px);letter-spacing:-.075em;line-height:1;margin:0}
 .genre-group__heading span{font-size:10px;font-weight:800;letter-spacing:.15em;color:var(--muted);white-space:nowrap}
+
+/* Weekly selection */
+.weekly{background:#ded9ce}
+.weekly .section__heading>p{max-width:330px}
+.weekly__list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px 18px;list-style:none;padding:0;margin:0}
+.weekly__item{min-width:0;display:grid;grid-template-columns:36px 56px minmax(0,1fr) auto;grid-template-areas:'rank cover song links' 'rank cover genre links';gap:2px 12px;align-items:center;padding:12px;background:#f4f1ea;border:1px solid #d0c9be}
+.weekly__rank{grid-area:rank;font-family:var(--font-display);font-size:26px;line-height:1;font-weight:700;letter-spacing:-.08em;color:var(--orange)}
+.weekly__cover{grid-area:cover;aspect-ratio:1;display:grid;place-items:center;background:var(--cover-bg);color:var(--cover-fg,#fff);font-family:var(--font-display);font-size:24px;font-weight:700;letter-spacing:-.1em;overflow:hidden}
+.weekly__song{grid-area:song;display:flex;flex-direction:column;gap:2px;min-width:0}
+.weekly__song strong{font-family:var(--font-display);font-size:16px;letter-spacing:-.045em;line-height:1.1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.weekly__song small{font-size:11px;color:#736d66;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.weekly__genre{grid-area:genre;align-self:start;font-size:9px;font-weight:800;letter-spacing:.11em;text-transform:uppercase;color:#a0988e}
+.weekly__links{grid-area:links;display:flex;flex-direction:column;gap:4px}
+.weekly__links a{display:block;border:1px solid #d5cec4;padding:6px 7px;font-size:8px;font-weight:800;letter-spacing:.03em;text-align:center;white-space:nowrap;transition:background .2s,color .2s,border-color .2s}
+.weekly__links a:hover{background:#171717;border-color:#171717;color:#fff}
+@media(max-width:900px){.weekly__list{grid-template-columns:1fr}}
+@media(max-width:520px){.weekly__item{grid-template-columns:27px 44px minmax(0,1fr) auto;gap:2px 7px;padding:9px}.weekly__rank{font-size:21px}.weekly__cover{font-size:19px}.weekly__song strong{font-size:14px}.weekly__song small{font-size:10px}.weekly__genre{display:none}.weekly__links a{font-size:7px;padding:5px}}
