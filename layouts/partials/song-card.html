@@ -1,0 +1,32 @@
+{{- $song := .song -}}
+{{- $featured := .featured | default false -}}
+<article class="song-card{{ if $featured }} song-card--featured{{ end }}" data-song-card data-genre="{{ $song.genre }}" data-search="{{ printf "%s %s %s %s %s" $song.title $song.artist $song.album $song.genre $song.mood | lower }}">
+  <div class="cover cover--{{ $song.color }}" aria-hidden="true">
+    <div class="cover__grain"></div>
+    <span class="cover__orbit"></span>
+    <span class="cover__initials">{{ $song.initials }}</span>
+    <span class="cover__serial">LISTEN / {{ printf "%02d" .index }}</span>
+  </div>
+  <div class="song-card__body">
+    <div class="song-card__eyebrow"><span>{{ $song.genre }}</span><span class="dot"></span><span>{{ $song.year }}</span></div>
+    <div class="song-card__title-row">
+      <div>
+        <h3>{{ $song.title }}</h3>
+        <p class="song-card__artist">{{ $song.artist }}</p>
+      </div>
+      {{ if $featured }}<span class="favorite-mark" aria-label="Metal spotlight pick">★</span>{{ end }}
+    </div>
+    {{ if $featured }}<p class="song-card__note">“{{ $song.note }}”</p>{{ end }}
+    <div class="song-card__footer"><span>{{ $song.album }}</span><span>{{ $song.mood }}</span></div>
+    {{- $query := printf "%s %s" $song.title $song.artist | urlquery -}}
+    {{- $spotify := printf "https://open.spotify.com/search/%s" $query -}}
+    {{- $youtubeMusic := printf "https://music.youtube.com/search?q=%s" $query -}}
+    {{- with $song.spotify_url }}{{ $spotify = . }}{{ end -}}
+    {{- with $song.youtube_music_url }}{{ $youtubeMusic = . }}{{ end }}
+    <div class="song-card__links" aria-label="Find {{ $song.title }} on music services">
+      <a href="{{ $spotify }}" target="_blank" rel="noopener noreferrer" aria-label="Find {{ $song.title }} by {{ $song.artist }} on Spotify (opens in new tab)">SPOTIFY <span aria-hidden="true">↗</span></a>
+      <a href="{{ $youtubeMusic }}" target="_blank" rel="noopener noreferrer" aria-label="Find {{ $song.title }} by {{ $song.artist }} on YouTube Music (opens in new tab)">YOUTUBE MUSIC <span aria-hidden="true">↗</span></a>
+    </div>
+  </div>
+</article>
+

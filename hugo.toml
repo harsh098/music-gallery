@@ -1,0 +1,10 @@
+baseURL = 'http://localhost:1313/'
+locale = 'en-US'
+title = 'The Listening Room'
+disableKinds = ['taxonomy', 'term', 'RSS']
+
+[params]
+  description = 'A personal gallery for the songs that stay with you.'
+  curator = 'YOUR NAME'
+  genres = ['Heavy Metal', 'Nu Metal', 'NWOBHM', 'Metalcore', 'Death Metal', 'Hindi Rock', 'Ghazals', 'Classic Hindi', '2000s Pop & Rap', 'NFS Soundtrack', '2010s EDM']
+

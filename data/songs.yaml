@@ -1,0 +1,405 @@
+# Draft picks based on the genres and artists named in the chat.
+# Replace with verified Spotify favorites after the connection is available.
+# Add spotify_url or youtube_music_url to link to an exact recording.
+- title: "Master of Puppets"
+  artist: "Metallica"
+  album: "Master of Puppets"
+  year: 1986
+  genre: "Heavy Metal"
+  mood: "Riff worship"
+  favorite: true
+  rank: 1
+  initials: "MT"
+  color: "slate"
+  note: "An eight minute benchmark for the heavy side of the room."
+
+- title: "Painkiller"
+  artist: "Judas Priest"
+  album: "Painkiller"
+  year: 1990
+  genre: "Heavy Metal"
+  mood: "Full throttle"
+  favorite: true
+  rank: 6
+  initials: "JP"
+  color: "red"
+  note: "That opening drum attack leaves no room to breathe."
+
+- title: "Holy Wars... The Punishment Due"
+  artist: "Megadeth"
+  album: "Rust in Peace"
+  year: 1990
+  genre: "Heavy Metal"
+  mood: "Thrash"
+  favorite: false
+  initials: "MD"
+  color: "amber"
+  note: "Precision at maximum speed."
+
+- title: "Chop Suey!"
+  artist: "System Of A Down"
+  album: "Toxicity"
+  year: 2001
+  genre: "Nu Metal"
+  mood: "Unhinged"
+  favorite: true
+  rank: 2
+  initials: "SO"
+  color: "orange"
+  note: "Chaos, melody, and a chorus you cannot forget."
+
+- title: "Numb"
+  artist: "Linkin Park"
+  album: "Meteora"
+  year: 2003
+  genre: "Nu Metal"
+  mood: "Cathartic"
+  favorite: false
+  initials: "LP"
+  color: "blue"
+  note: "A defining 2000s release."
+
+- title: "Duality"
+  artist: "Slipknot"
+  album: "Vol. 3: (The Subliminal Verses)"
+  year: 2004
+  genre: "Nu Metal"
+  mood: "Release"
+  favorite: false
+  initials: "SK"
+  color: "rose"
+  note: "Built for shouting along."
+
+- title: "The Trooper"
+  artist: "Iron Maiden"
+  album: "Piece of Mind"
+  year: 1983
+  genre: "NWOBHM"
+  mood: "Galloping"
+  favorite: true
+  rank: 3
+  initials: "IM"
+  color: "yellow"
+  note: "The gallop that never gets old."
+
+- title: "Run to the Hills"
+  artist: "Iron Maiden"
+  album: "The Number of the Beast"
+  year: 1982
+  genre: "NWOBHM"
+  mood: "Anthemic"
+  favorite: false
+  initials: "IM"
+  color: "coral"
+  note: "A chorus made for a crowd."
+
+- title: "Ace of Spades"
+  artist: "Motörhead"
+  album: "Ace of Spades"
+  year: 1980
+  genre: "NWOBHM"
+  mood: "Fast lane"
+  favorite: false
+  initials: "MH"
+  color: "slate"
+  note: "Raw speed and a timeless opening."
+
+- title: "My Curse"
+  artist: "Killswitch Engage"
+  album: "As Daylight Dies"
+  year: 2006
+  genre: "Metalcore"
+  mood: "Melodic"
+  favorite: true
+  rank: 4
+  initials: "KE"
+  color: "teal"
+  note: "A chorus that cuts through the weight."
+
+- title: "Tears Don't Fall"
+  artist: "Bullet For My Valentine"
+  album: "The Poison"
+  year: 2005
+  genre: "Metalcore"
+  mood: "Emotional"
+  favorite: false
+  initials: "BF"
+  color: "violet"
+  note: "A 2000s metalcore staple."
+
+- title: "Shadow Moses"
+  artist: "Bring Me The Horizon"
+  album: "Sempiternal"
+  year: 2013
+  genre: "Metalcore"
+  mood: "Arena sized"
+  favorite: false
+  initials: "BM"
+  color: "purple"
+  note: "Heavy enough to shake the walls."
+
+- title: "Crystal Mountain"
+  artist: "Death"
+  album: "Symbolic"
+  year: 1995
+  genre: "Death Metal"
+  mood: "Technical"
+  favorite: true
+  rank: 5
+  initials: "DT"
+  color: "lime"
+  note: "Sharp riffs and a towering hook."
+
+- title: "Pull the Plug"
+  artist: "Death"
+  album: "Leprosy"
+  year: 1988
+  genre: "Death Metal"
+  mood: "Classic"
+  favorite: false
+  initials: "DT"
+  color: "red"
+  note: "Old school death metal with bite."
+
+- title: "Hammer Smashed Face"
+  artist: "Cannibal Corpse"
+  album: "Tomb of the Mutilated"
+  year: 1992
+  genre: "Death Metal"
+  mood: "Brutal"
+  favorite: false
+  initials: "CC"
+  color: "slate"
+  note: "A relentless genre landmark."
+
+- title: "Bandeh"
+  artist: "Indian Ocean"
+  album: "Black Friday"
+  year: 2007
+  genre: "Hindi Rock"
+  mood: "Haunting"
+  favorite: false
+  initials: "IO"
+  color: "teal"
+  note: "A slow build with lasting force."
+
+- title: "Aahatein"
+  artist: "Agnee"
+  album: "Agnee"
+  year: 2007
+  genre: "Hindi Rock"
+  mood: "Reflective"
+  favorite: false
+  initials: "AG"
+  color: "amber"
+  note: "A familiar voice in the Indian rock mix."
+
+- title: "Socha Hai"
+  artist: "Farhan Akhtar"
+  album: "Rock On!!"
+  year: 2008
+  genre: "Hindi Rock"
+  mood: "Restless"
+  favorite: false
+  initials: "FA"
+  color: "orange"
+  note: "The spark of a band finding its sound."
+
+- title: "Hoshwalon Ko Khabar Kya"
+  artist: "Jagjit Singh"
+  album: "Sarfarosh"
+  year: 1999
+  genre: "Ghazals"
+  mood: "Unhurried"
+  favorite: false
+  initials: "JS"
+  color: "violet"
+  note: "A quiet place to land."
+
+- title: "Tum Itna Jo Muskura Rahe Ho"
+  artist: "Jagjit Singh"
+  album: "Arth"
+  year: 1982
+  genre: "Ghazals"
+  mood: "Bittersweet"
+  favorite: false
+  initials: "JS"
+  color: "blue"
+  note: "An intimate classic."
+
+- title: "Ranjish Hi Sahi"
+  artist: "Mehdi Hassan"
+  album: "Ghazal classic"
+  year: 1972
+  genre: "Ghazals"
+  mood: "Longing"
+  favorite: false
+  initials: "MH"
+  color: "rose"
+  note: "Poetry that holds the room."
+
+- title: "Lag Ja Gale"
+  artist: "Lata Mangeshkar"
+  album: "Woh Kaun Thi?"
+  year: 1964
+  genre: "Classic Hindi"
+  mood: "Timeless"
+  favorite: false
+  initials: "LM"
+  color: "yellow"
+  note: "A melody that needs no introduction."
+
+- title: "Abhi Na Jao Chhod Kar"
+  artist: "Mohammed Rafi & Asha Bhosle"
+  album: "Hum Dono"
+  year: 1961
+  genre: "Classic Hindi"
+  mood: "Tender"
+  favorite: false
+  initials: "RA"
+  color: "lime"
+  note: "The perfect plea for one more moment."
+
+- title: "Pal Pal Dil Ke Paas"
+  artist: "Kishore Kumar"
+  album: "Blackmail"
+  year: 1973
+  genre: "Classic Hindi"
+  mood: "Warm"
+  favorite: false
+  initials: "KK"
+  color: "coral"
+  note: "A classic built on closeness."
+
+- title: "Smack That"
+  artist: "Akon feat. Eminem"
+  album: "Konvicted"
+  year: 2006
+  genre: "2000s Pop & Rap"
+  mood: "Throwback"
+  favorite: false
+  initials: "AE"
+  color: "orange"
+  note: "A 2000s crossover you know on the first beat."
+
+- title: "Lonely"
+  artist: "Akon"
+  album: "Trouble"
+  year: 2004
+  genre: "2000s Pop & Rap"
+  mood: "Nostalgic"
+  favorite: false
+  initials: "AK"
+  color: "blue"
+  note: "Pure mid 2000s radio memory."
+
+- title: "Without Me"
+  artist: "Eminem"
+  album: "The Eminem Show"
+  year: 2002
+  genre: "2000s Pop & Rap"
+  mood: "Playful"
+  favorite: false
+  initials: "EM"
+  color: "yellow"
+  note: "A hook built to stick."
+
+- title: "Lose Yourself"
+  artist: "Eminem"
+  album: "8 Mile"
+  year: 2002
+  genre: "2000s Pop & Rap"
+  mood: "Driven"
+  favorite: false
+  initials: "EM"
+  color: "slate"
+  note: "The ultimate focus track."
+
+- title: "Nine Thou"
+  artist: "Styles of Beyond"
+  album: "Need for Speed: Most Wanted"
+  year: 2005
+  genre: "NFS Soundtrack"
+  mood: "Street race"
+  favorite: false
+  initials: "SB"
+  color: "red"
+  note: "A Most Wanted menu memory."
+
+- title: "Riders on the Storm"
+  artist: "Snoop Dogg feat. The Doors"
+  album: "Need for Speed: Underground 2"
+  year: 2004
+  genre: "NFS Soundtrack"
+  mood: "Night drive"
+  favorite: false
+  initials: "SD"
+  color: "purple"
+  note: "Rain slick streets and neon."
+
+- title: "Decadence"
+  artist: "Disturbed"
+  album: "Ten Thousand Fists"
+  year: 2005
+  genre: "NFS Soundtrack"
+  mood: "Adrenaline"
+  favorite: false
+  initials: "DS"
+  color: "amber"
+  note: "A perfect race start."
+
+- title: "Get Low"
+  artist: "Lil Jon & The East Side Boyz"
+  album: "Need for Speed: Underground"
+  year: 2003
+  genre: "NFS Soundtrack"
+  mood: "Throwback"
+  favorite: false
+  initials: "LJ"
+  color: "lime"
+  note: "Straight back to the garage screen."
+
+- title: "Levels"
+  artist: "Avicii"
+  album: "Levels"
+  year: 2011
+  genre: "2010s EDM"
+  mood: "Euphoric"
+  favorite: false
+  initials: "AV"
+  color: "orange"
+  note: "Festival era lift off."
+
+- title: "Animals"
+  artist: "Martin Garrix"
+  album: "Animals"
+  year: 2013
+  genre: "2010s EDM"
+  mood: "Peak time"
+  favorite: false
+  initials: "MG"
+  color: "red"
+  note: "The drop heard everywhere."
+
+- title: "Clarity"
+  artist: "Zedd feat. Foxes"
+  album: "Clarity"
+  year: 2012
+  genre: "2010s EDM"
+  mood: "Anthemic"
+  favorite: false
+  initials: "ZF"
+  color: "blue"
+  note: "Melody first, impact second."
+
+- title: "Wake Me Up"
+  artist: "Avicii"
+  album: "True"
+  year: 2013
+  genre: "2010s EDM"
+  mood: "Open road"
+  favorite: false
+  initials: "AV"
+  color: "yellow"
+  note: "A road trip chorus that still works."
+

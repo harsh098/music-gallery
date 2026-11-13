@@ -1,0 +1,61 @@
+{{ define "main" }}
+{{ $songs := hugo.Data.songs }}
+{{ $favorites := sort (where $songs "favorite" true) "rank" }}
+<div class="site-shell">
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="The Listening Room, back to top"><span class="brand__mark">m<span>.</span></span><span class="brand__name">THE LISTENING<br>ROOM</span></a>
+    <nav class="topnav" aria-label="Main navigation"><a href="#favorites">METAL</a><a href="#collection">THE COLLECTION</a><a href="#about">ABOUT</a></nav>
+    <span class="topbar__index">PERSONAL MUSIC ARCHIVE / 001</span>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__content">
+        <div class="eyebrow"><span class="eyebrow__line"></span> THE VOLUME STAYS UP</div>
+        <h1 id="hero-title">Heavy on<br>the <em>riffs</em><span class="hero__period">.</span></h1>
+        <p>Metal takes the main stage. Ghazals, Hindi classics, road trip rap, and festival era EDM all have a place in this draft mix.</p>
+        <a class="hero__cta" href="#collection">EXPLORE THE COLLECTION <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="hero__art" aria-hidden="true">
+        <div class="hero__disc"><div class="hero__disc-inner"><div class="hero__disc-label">PLAY<br>IT<br>LOUD</div></div></div>
+        <span class="hero__art-caption">SOUNDTRACK TO EVERYTHING&nbsp; ↗</span>
+      </div>
+      <div class="hero__side-label" aria-hidden="true">THE LISTENING ROOM — VOL. 01</div>
+    </section>
+
+    <div class="ticker" aria-hidden="true"><div class="ticker__track">GOOD MUSIC NEVER GETS OLD <span>✳</span> PRESS PLAY, STAY A WHILE <span>✳</span> GOOD MUSIC NEVER GETS OLD <span>✳</span> PRESS PLAY, STAY A WHILE <span>✳</span></div></div>
+
+    <section class="section favorites" id="favorites" aria-labelledby="favorites-title">
+      <div class="section__heading"><div><span class="section__kicker">01 / HEAVY ROTATION</span><h2 id="favorites-title">Metal <em>spotlight.</em></h2></div><p>Draft picks across the heavy spectrum. Ready to refine from your Spotify library.</p></div>
+      <div class="favorites__grid">
+        {{ range $i, $song := $favorites }}{{ partial "song-card.html" (dict "song" $song "featured" true "index" (add $i 1)) }}{{ end }}
+      </div>
+    </section>
+
+    <section class="section collection" id="collection" aria-labelledby="collection-title">
+      <div class="section__heading section__heading--collection"><div><span class="section__kicker">02 / THE WHOLE MIX</span><h2 id="collection-title">The <em>collection.</em></h2></div><p>From blast beats to late night ghazals, organized by sound.</p></div>
+      <div class="collection__toolbar">
+        <div class="filters" role="group" aria-label="Filter by genre"><button class="filter is-active" type="button" data-genre-filter="all" aria-pressed="true">ALL TRACKS <span>{{ len $songs }}</span></button>{{ range .Site.Params.genres }}{{ $genre := . }}<button class="filter" type="button" data-genre-filter="{{ $genre }}" aria-pressed="false">{{ upper $genre }} <span>{{ len (where $songs "genre" $genre) }}</span></button>{{ end }}</div>
+        <label class="search"><span class="search__icon" aria-hidden="true">⌕</span><span class="sr-only">Search songs, artists, or moods</span><input id="song-search" type="search" placeholder="Search the collection..." autocomplete="off"></label>
+      </div>
+      <p class="collection__count" id="result-count" aria-live="polite">SHOWING {{ len $songs }} TRACKS</p>
+      <div class="collection__groups">
+        {{ range .Site.Params.genres }}
+          {{ $genre := . }}{{ $group := where $songs "genre" $genre }}
+          {{ if gt (len $group) 0 }}
+          <section class="genre-group" data-genre-group="{{ $genre }}" aria-label="{{ $genre }} songs">
+            <div class="genre-group__heading"><h3>{{ $genre }}</h3><span>{{ printf "%02d" (len $group) }} TRACKS</span></div>
+            <div class="collection__grid">{{ range $i, $song := $group }}{{ partial "song-card.html" (dict "song" $song "index" (add $i 1)) }}{{ end }}</div>
+          </section>
+          {{ end }}
+        {{ end }}
+      </div>
+      <div class="empty-state" id="empty-state" hidden><span>NO MATCHES FOUND</span><h3>Try a different beat.</h3><p>Search for another song, artist, mood, or genre.</p></div>
+    </section>
+
+    <section class="about" id="about" aria-labelledby="about-title"><div><span class="section__kicker">03 / THE PERSON BEHIND THE PLAYLIST</span><h2 id="about-title">Made to be<br><em>played loud.</em></h2></div><div class="about__copy"><p>A home for music with a pulse: distortion and double kicks up front, with every other mood close behind.</p><span>CURATED BY {{ .Site.Params.curator }} <span class="about__star">✳</span> ALWAYS IN PROGRESS</span></div></section>
+  </main>
+  <footer class="footer"><a class="footer__brand" href="#top">m<span>.</span></a><span>GOOD TASTE IS A WORK IN PROGRESS.</span><a href="#top">BACK TO TOP ↑</a></footer>
+</div>
+{{ end }}
+
