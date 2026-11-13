@@ -20,9 +20,12 @@
     {{- $youtubeMusic := printf "https://music.youtube.com/search?q=%s" $query -}}
     {{- with $song.spotify_url }}{{ $spotify = . }}{{ end -}}
     {{- with $song.youtube_music_url }}{{ $youtubeMusic = . }}{{ end }}
+    {{- with $song.youtube_url }}{{ $youtubeMusic = . }}{{ end }}
     <div class="song-card__links" aria-label="Find {{ $song.title }} on music services">
+      {{- if ne $song.spotify_available false }}
       <a href="{{ $spotify }}" target="_blank" rel="noopener noreferrer" aria-label="Find {{ $song.title }} by {{ $song.artist }} on Spotify (opens in new tab)">SPOTIFY <span aria-hidden="true">↗</span></a>
-      <a href="{{ $youtubeMusic }}" target="_blank" rel="noopener noreferrer" aria-label="Find {{ $song.title }} by {{ $song.artist }} on YouTube Music (opens in new tab)">YOUTUBE MUSIC <span aria-hidden="true">↗</span></a>
+      {{- end }}
+      <a href="{{ $youtubeMusic }}" target="_blank" rel="noopener noreferrer" aria-label="Find {{ $song.title }} by {{ $song.artist }} on YouTube (opens in new tab)">{{ if $song.youtube_url }}WATCH ON YOUTUBE{{ else }}YOUTUBE MUSIC{{ end }} <span aria-hidden="true">↗</span></a>
     </div>
   </div>
 </article>

@@ -141,7 +141,6 @@
   source: "Collection009"
   initials: "LB"
   color: "slate"
-  weekly_rank: 9
 
 - title: "One Last Breath"
   artist: "Creed"
@@ -1532,6 +1531,7 @@
   source: "Curated addition"
   initials: "KO"
   color: "purple"
+  weekly_rank: 9
 
 - title: "Got the Life"
   artist: "Korn"
@@ -1572,3 +1572,736 @@
   source: "Curated addition"
   initials: "KO"
   color: "rose"
+
+- title: "Nobody's Listening"
+  artist: "Linkin Park"
+  album: "Meteora"
+  genre: "Nu Metal"
+  mood: "Heavy rotation"
+  source: "Metal article"
+  initials: "LP"
+  color: "red"
+  year: 2003
+
+- title: "High Voltage"
+  artist: "Linkin Park"
+  album: "Hybrid Theory (20th Anniversary Edition)"
+  genre: "Nu Metal"
+  mood: "Heavy rotation"
+  source: "Metal article"
+  initials: "LP"
+  color: "violet"
+  year: 2000
+
+- title: "Given Up"
+  artist: "Linkin Park"
+  album: "Minutes to Midnight"
+  genre: "Alternative Metal"
+  mood: "Heavy rotation"
+  source: "Metal article"
+  initials: "LP"
+  color: "amber"
+  year: 2007
+
+- title: "Superman"
+  artist: "Eminem"
+  album: "The Eminem Show"
+  genre: "Hip-Hop"
+  mood: "On repeat"
+  source: "Metal article"
+  initials: "E"
+  color: "blue"
+  year: 2002
+
+- title: "Kim"
+  artist: "Eminem"
+  album: "The Marshall Mathers LP"
+  genre: "Hip-Hop"
+  mood: "On repeat"
+  source: "Metal article"
+  initials: "E"
+  color: "coral"
+  year: 2000
+
+- title: "Rap God"
+  artist: "Eminem"
+  album: "The Marshall Mathers LP 2"
+  genre: "Hip-Hop"
+  mood: "On repeat"
+  source: "Metal article"
+  initials: "E"
+  color: "lime"
+  year: 2013
+
+- title: "Beautiful"
+  artist: "Eminem"
+  album: "Relapse"
+  genre: "Hip-Hop"
+  mood: "On repeat"
+  source: "Metal article"
+  initials: "E"
+  color: "orange"
+  year: 2009
+
+- title: "Like Toy Soldiers"
+  artist: "Eminem"
+  album: "Encore"
+  genre: "Hip-Hop"
+  mood: "On repeat"
+  source: "Metal article"
+  initials: "E"
+  color: "slate"
+  year: 2004
+
+- title: "Space Bound"
+  artist: "Eminem"
+  album: "Recovery"
+  genre: "Hip-Hop"
+  mood: "On repeat"
+  source: "Metal article"
+  initials: "E"
+  color: "teal"
+  year: 2010
+
+- title: "Summer of '69"
+  artist: "Bryan Adams"
+  album: "Reckless"
+  genre: "Hard Rock"
+  mood: "Heavy rotation"
+  source: "Metal article"
+  initials: "BA"
+  color: "rose"
+  year: 1984
+
+- title: "The Man Who Sold the World"
+  artist: "Nirvana"
+  album: "MTV Unplugged in New York"
+  genre: "Grunge"
+  mood: "On repeat"
+  source: "Metal article"
+  initials: "N"
+  color: "red"
+  year: 1994
+
+- title: "Zombie"
+  artist: "The Cranberries"
+  album: "No Need to Argue"
+  genre: "Alternative Rock"
+  mood: "On repeat"
+  source: "Metal article"
+  initials: "TC"
+  color: "violet"
+  year: 1994
+
+- title: "Californication"
+  artist: "Red Hot Chili Peppers"
+  album: "Californication"
+  genre: "Alternative Rock"
+  mood: "On repeat"
+  source: "Metal article"
+  initials: "RH"
+  color: "amber"
+  year: 1999
+
+- title: "Otherside"
+  artist: "Red Hot Chili Peppers"
+  album: "Californication"
+  genre: "Alternative Rock"
+  mood: "On repeat"
+  source: "Metal article"
+  initials: "RH"
+  color: "blue"
+  year: 1999
+
+- title: "Dani California"
+  artist: "Red Hot Chili Peppers"
+  album: "Stadium Arcadium"
+  genre: "Alternative Rock"
+  mood: "On repeat"
+  source: "Metal article"
+  initials: "RH"
+  color: "coral"
+  year: 2006
+
+- title: "Black Summer"
+  artist: "Red Hot Chili Peppers"
+  album: "Unlimited Love"
+  genre: "Alternative Rock"
+  mood: "On repeat"
+  source: "Metal article"
+  initials: "RH"
+  color: "lime"
+  year: 2022
+
+- title: "Wake Me Up When September Ends"
+  artist: "Green Day"
+  album: "American Idiot"
+  genre: "Pop Punk"
+  mood: "On repeat"
+  source: "Metal article"
+  initials: "GD"
+  color: "orange"
+  year: 2004
+
+- title: "21 Guns"
+  artist: "Green Day"
+  album: "21st Century Breakdown"
+  genre: "Pop Punk"
+  mood: "On repeat"
+  source: "Metal article"
+  initials: "GD"
+  color: "slate"
+  year: 2009
+
+- title: "Despacito"
+  artist: "Luis Fonsi & Daddy Yankee"
+  album: "VIDA"
+  genre: "Pop"
+  mood: "On repeat"
+  source: "Metal article"
+  initials: "LF"
+  color: "teal"
+  year: 2017
+
+- title: "Shape of You"
+  artist: "Ed Sheeran"
+  album: "÷"
+  genre: "Pop"
+  mood: "On repeat"
+  source: "Metal article"
+  initials: "ES"
+  color: "rose"
+  year: 2017
+
+- title: "Angreji Beat"
+  artist: "Yo Yo Honey Singh & Gippy Grewal"
+  album: "International Villager"
+  genre: "Punjabi Pop"
+  mood: "On repeat"
+  source: "Metal article"
+  initials: "YY"
+  color: "red"
+  year: 2011
+
+- title: "Amplifier"
+  artist: "Imran Khan"
+  album: "Unforgettable"
+  genre: "Punjabi Pop"
+  mood: "On repeat"
+  source: "Metal article"
+  initials: "IK"
+  color: "violet"
+  year: 2009
+
+- title: "Brown Rang"
+  artist: "Yo Yo Honey Singh"
+  album: "International Villager"
+  genre: "Punjabi Pop"
+  mood: "On repeat"
+  source: "Metal article"
+  initials: "YY"
+  color: "amber"
+  year: 2011
+
+- title: "Metalingus"
+  artist: "Alter Bridge"
+  album: "One Day Remains"
+  genre: "Hard Rock"
+  mood: "Heavy rotation"
+  source: "Metal article"
+  initials: "AB"
+  color: "blue"
+  year: 2004
+
+- title: "Five Magics"
+  artist: "Megadeth"
+  album: "Rust in Peace"
+  genre: "Thrash Metal"
+  mood: "Heavy rotation"
+  source: "Metal article"
+  initials: "M"
+  color: "coral"
+  year: 1990
+
+- title: "A Tout Le Monde"
+  artist: "Megadeth"
+  album: "Youthanasia"
+  genre: "Thrash Metal"
+  mood: "Heavy rotation"
+  source: "Metal article"
+  initials: "M"
+  color: "lime"
+  year: 1994
+
+- title: "The Unforgiven"
+  artist: "Metallica"
+  album: "Metallica"
+  genre: "Heavy Metal"
+  mood: "Heavy rotation"
+  source: "Metal article"
+  initials: "M"
+  color: "orange"
+  year: 1991
+
+- title: "The Unforgiven II"
+  artist: "Metallica"
+  album: "Reload"
+  genre: "Heavy Metal"
+  mood: "Heavy rotation"
+  source: "Metal article"
+  initials: "M"
+  color: "slate"
+  year: 1997
+
+- title: "The Unforgiven III"
+  artist: "Metallica"
+  album: "Death Magnetic"
+  genre: "Heavy Metal"
+  mood: "Heavy rotation"
+  source: "Metal article"
+  initials: "M"
+  color: "teal"
+  year: 2008
+
+- title: "The Clansman"
+  artist: "Iron Maiden"
+  album: "Virtual XI"
+  genre: "NWOBHM"
+  mood: "On repeat"
+  source: "Metal article"
+  initials: "IM"
+  color: "rose"
+  year: 1998
+
+- title: "Wasting Love"
+  artist: "Iron Maiden"
+  album: "Fear of the Dark"
+  genre: "NWOBHM"
+  mood: "On repeat"
+  source: "Metal article"
+  initials: "IM"
+  color: "red"
+  year: 1992
+
+- title: "Wasted Years"
+  artist: "Iron Maiden"
+  album: "Somewhere in Time"
+  genre: "NWOBHM"
+  mood: "On repeat"
+  source: "Metal article"
+  initials: "IM"
+  color: "violet"
+  year: 1986
+
+- title: "Blood Brothers"
+  artist: "Iron Maiden"
+  album: "Brave New World"
+  genre: "NWOBHM"
+  mood: "On repeat"
+  source: "Metal article"
+  initials: "IM"
+  color: "amber"
+  year: 2000
+
+- title: "Flight of Icarus"
+  artist: "Iron Maiden"
+  album: "Piece of Mind"
+  genre: "NWOBHM"
+  mood: "On repeat"
+  source: "Metal article"
+  initials: "IM"
+  color: "blue"
+  year: 1983
+
+- title: "Rime of the Ancient Mariner"
+  artist: "Iron Maiden"
+  album: "Powerslave"
+  genre: "NWOBHM"
+  mood: "On repeat"
+  source: "Metal article"
+  initials: "IM"
+  color: "coral"
+  year: 1984
+
+- title: "Genghis Khan"
+  artist: "Iron Maiden"
+  album: "Killers"
+  genre: "NWOBHM"
+  mood: "On repeat"
+  source: "Metal article"
+  initials: "IM"
+  color: "lime"
+  year: 1981
+
+- title: "Stairway to Heaven"
+  artist: "Led Zeppelin"
+  album: "Led Zeppelin IV"
+  genre: "Hard Rock"
+  mood: "Heavy rotation"
+  source: "Metal article"
+  initials: "LZ"
+  color: "orange"
+  year: 1971
+
+- title: "Hotel California"
+  artist: "Eagles"
+  album: "Hotel California"
+  genre: "Classic Rock"
+  mood: "On repeat"
+  source: "Metal article"
+  initials: "E"
+  color: "slate"
+  year: 1976
+
+- title: "Highway to Hell"
+  artist: "AC/DC"
+  album: "Highway to Hell"
+  genre: "Hard Rock"
+  mood: "Heavy rotation"
+  source: "Metal article"
+  initials: "AD"
+  color: "teal"
+  year: 1979
+
+- title: "Paranoid"
+  artist: "Black Sabbath"
+  album: "Paranoid"
+  genre: "Heavy Metal"
+  mood: "Heavy rotation"
+  source: "Metal article"
+  initials: "BS"
+  color: "rose"
+  year: 1970
+
+- title: "Breaking the Law"
+  artist: "Judas Priest"
+  album: "British Steel"
+  genre: "NWOBHM"
+  mood: "On repeat"
+  source: "Metal article"
+  initials: "JP"
+  color: "red"
+  year: 1980
+
+- title: "Decadence"
+  artist: "Disturbed"
+  album: "Ten Thousand Fists / Need for Speed: Most Wanted"
+  genre: "Alternative Metal"
+  mood: "Heavy rotation"
+  source: "Metal article"
+  initials: "D"
+  color: "violet"
+  year: 2005
+
+- title: "Last Resort"
+  artist: "Papa Roach"
+  album: "Infest"
+  genre: "Nu Metal"
+  mood: "Heavy rotation"
+  source: "Metal article"
+  initials: "PR"
+  color: "amber"
+  year: 2000
+
+- title: "Ratamahatta"
+  artist: "Sepultura"
+  album: "Roots"
+  genre: "Groove Metal"
+  mood: "Heavy rotation"
+  source: "Metal article"
+  initials: "S"
+  color: "blue"
+  year: 1996
+
+- title: "King of Kings"
+  artist: "Motörhead"
+  album: "WWE: Wreckless Intent"
+  genre: "Heavy Metal"
+  mood: "Heavy rotation"
+  source: "Metal article"
+  initials: "M"
+  color: "coral"
+  year: 2006
+
+- title: "The Jester's Dance"
+  artist: "In Flames"
+  album: "The Jester Race"
+  genre: "Melodic Death Metal"
+  mood: "Heavy rotation"
+  source: "Metal article"
+  initials: "IF"
+  color: "lime"
+  year: 1996
+
+- title: "For the Glory of..."
+  artist: "Testament"
+  album: "The Formation of Damnation"
+  genre: "Thrash Metal"
+  mood: "Heavy rotation"
+  source: "Metal article"
+  initials: "T"
+  color: "orange"
+  year: 2008
+
+- title: "Lack of Comprehension"
+  artist: "Death"
+  album: "Human"
+  genre: "Death Metal"
+  mood: "Heavy rotation"
+  source: "Metal article"
+  initials: "D"
+  color: "slate"
+  year: 1991
+
+- title: "Hairat"
+  artist: "Lucky Ali"
+  album: "Anjaana Anjaani"
+  genre: "Hindi Film Music"
+  mood: "On repeat"
+  source: "Requested addition"
+  initials: "LA"
+  color: "teal"
+  year: 2010
+  spotify_url: "https://open.spotify.com/track/3fCuN1zuk8NTtUTnKvNoeg"
+
+- title: "Sajni"
+  artist: "Jal"
+  album: "Boondh"
+  genre: "Pop Rock"
+  mood: "On repeat"
+  source: "Requested addition"
+  initials: "J"
+  color: "rose"
+  year: 2007
+
+- title: "Sayonee"
+  artist: "Junoon"
+  album: "Azadi"
+  genre: "Pop Rock"
+  mood: "On repeat"
+  source: "Requested addition"
+  initials: "J"
+  color: "red"
+  year: 1997
+
+- title: "Maeri"
+  artist: "Palash Sen & Euphoria"
+  album: "Phir Dhoom"
+  genre: "Hindi Rock"
+  mood: "On repeat"
+  source: "Requested addition"
+  initials: "PS"
+  color: "violet"
+  year: 2000
+
+- title: "Laaree Chootee"
+  artist: "Call"
+  album: "Ek Chalis Ki Last Local"
+  genre: "Pop Rock"
+  mood: "On repeat"
+  source: "Requested addition"
+  initials: "C"
+  color: "amber"
+  year: 2007
+
+- title: "The Last Analog Generation"
+  artist: "Blackstratblues"
+  album: "The Last Analog Generation"
+  genre: "Instrumental Rock"
+  mood: "On repeat"
+  source: "Requested addition"
+  initials: "B"
+  color: "blue"
+  year: 2017
+
+- title: "Bombay Rain"
+  artist: "Blackstratblues"
+  album: "Nights in Shining Karma"
+  genre: "Instrumental Rock"
+  mood: "On repeat"
+  source: "Requested addition"
+  initials: "B"
+  color: "coral"
+  year: 2007
+
+- title: "Anuva's Sky"
+  artist: "Blackstratblues"
+  album: "Nights in Shining Karma"
+  genre: "Instrumental Rock"
+  mood: "On repeat"
+  source: "Requested addition"
+  initials: "B"
+  color: "lime"
+  year: 2007
+
+- title: "Blackbird"
+  artist: "Alter Bridge"
+  album: "Blackbird"
+  genre: "Hard Rock"
+  mood: "Heavy rotation"
+  source: "Requested addition"
+  initials: "AB"
+  color: "orange"
+  year: 2007
+
+- title: "The Kids Aren't Alright"
+  artist: "The Offspring"
+  album: "Americana"
+  genre: "Pop Punk"
+  mood: "On repeat"
+  source: "Requested addition"
+  initials: "TO"
+  color: "slate"
+  year: 1998
+
+- title: "Flying Whales"
+  artist: "Gojira"
+  album: "From Mars to Sirius"
+  genre: "Progressive Metal"
+  mood: "Heavy rotation"
+  source: "Requested addition"
+  initials: "G"
+  color: "teal"
+  year: 2005
+
+- title: "Silvera"
+  artist: "Gojira"
+  album: "Magma"
+  genre: "Progressive Metal"
+  mood: "Heavy rotation"
+  source: "Requested addition"
+  initials: "G"
+  color: "rose"
+  year: 2016
+
+- title: "Stranded"
+  artist: "Gojira"
+  album: "Magma"
+  genre: "Progressive Metal"
+  mood: "Heavy rotation"
+  source: "Requested addition"
+  initials: "G"
+  color: "red"
+  year: 2016
+
+- title: "Ab To Aadat Si Hai"
+  artist: "Atif Aslam"
+  album: "Jal Pari"
+  genre: "Pop Rock"
+  mood: "On repeat"
+  source: "Album: Jal Pari"
+  initials: "AA"
+  color: "violet"
+  year: 2004
+
+- title: "Ehsaas"
+  artist: "Atif Aslam"
+  album: "Jal Pari"
+  genre: "Pop Rock"
+  mood: "On repeat"
+  source: "Album: Jal Pari"
+  initials: "AA"
+  color: "amber"
+  year: 2004
+
+- title: "Zindagi"
+  artist: "Atif Aslam"
+  album: "Jal Pari"
+  genre: "Pop Rock"
+  mood: "On repeat"
+  source: "Album: Jal Pari"
+  initials: "AA"
+  color: "blue"
+  year: 2004
+
+- title: "Yakeen"
+  artist: "Atif Aslam"
+  album: "Jal Pari"
+  genre: "Pop Rock"
+  mood: "On repeat"
+  source: "Album: Jal Pari"
+  initials: "AA"
+  color: "coral"
+  year: 2004
+
+- title: "Aankhon Se"
+  artist: "Atif Aslam"
+  album: "Jal Pari"
+  genre: "Pop Rock"
+  mood: "On repeat"
+  source: "Album: Jal Pari"
+  initials: "AA"
+  color: "lime"
+  year: 2004
+
+- title: "Aadat (Deep Blue Version)"
+  artist: "Atif Aslam"
+  album: "Jal Pari"
+  genre: "Pop Rock"
+  mood: "On repeat"
+  source: "Album: Jal Pari"
+  initials: "AA"
+  color: "orange"
+  year: 2004
+
+- title: "Mahi Ve"
+  artist: "Atif Aslam"
+  album: "Jal Pari"
+  genre: "Pop Rock"
+  mood: "On repeat"
+  source: "Album: Jal Pari"
+  initials: "AA"
+  color: "slate"
+  year: 2004
+
+- title: "Jal Pari"
+  artist: "Atif Aslam"
+  album: "Jal Pari"
+  genre: "Pop Rock"
+  mood: "On repeat"
+  source: "Album: Jal Pari"
+  initials: "AA"
+  color: "teal"
+  year: 2004
+
+- title: "Bheegi Yaadein"
+  artist: "Atif Aslam"
+  album: "Jal Pari"
+  genre: "Pop Rock"
+  mood: "On repeat"
+  source: "Album: Jal Pari"
+  initials: "AA"
+  color: "rose"
+  year: 2004
+
+- title: "Tehzeeb"
+  artist: "Atif Aslam"
+  album: "Jal Pari"
+  genre: "Pop Rock"
+  mood: "On repeat"
+  source: "Album: Jal Pari"
+  initials: "AA"
+  color: "red"
+  year: 2004
+
+- title: "Gal Sun Ja"
+  artist: "Atif Aslam"
+  album: "Jal Pari"
+  genre: "Pop Rock"
+  mood: "On repeat"
+  source: "Album: Jal Pari"
+  initials: "AA"
+  color: "violet"
+  year: 2004
+
+- title: "Umeedon Wali Dhoop, Sunshine Wali Aasha"
+  artist: "Coca-Cola India"
+  album: "Coca-Cola India: Reasons to Believe"
+  genre: "Pop"
+  mood: "On repeat"
+  source: "YouTube only"
+  initials: "CI"
+  color: "amber"
+  year: 2011
+  spotify_available: false
+  youtube_url: "https://www.youtube.com/watch?v=5o3zH9zUmuM"
