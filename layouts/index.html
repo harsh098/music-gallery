@@ -16,7 +16,7 @@
       <div class="hero__content">
         <div class="eyebrow"><span class="eyebrow__line"></span> THE VOLUME STAYS UP</div>
         <h1 id="hero-title">Heavy on<br>the <em>riffs</em><span class="hero__period">.</span></h1>
-        <p>Metal takes the main stage. Forty tracks come from the shared Spotify playlists, with industrial metal, album deep cuts, Hindi classics, and other favorites curated around them.</p>
+        <p>Metal takes the main stage. Explore the shared playlist tracks, Jagjit Singh albums, and a growing collection of grunge, post-grunge, and heavy favorites.</p>
         <a class="hero__cta" href="#collection">EXPLORE THE COLLECTION <span aria-hidden="true">↗</span></a>
       </div>
       <div class="hero__art" aria-hidden="true">
@@ -58,7 +58,7 @@
     {{ end }}
 
     <section class="section collection" id="collection" aria-labelledby="collection-title">
-      <div class="section__heading section__heading--collection"><div><span class="section__kicker">03 / THE WHOLE MIX</span><h2 id="collection-title">The <em>collection.</em></h2></div><p>From blast beats to late night ghazals, organized by sound.</p></div>
+      <div class="section__heading section__heading--collection"><div><span class="section__kicker">03 / THE WHOLE MIX</span><h2 id="collection-title">The <em>collection.</em></h2></div><p>Browse by genre, from blast beats and grunge to late night ghazals.</p></div>
       <div class="collection__toolbar">
         <div class="filters" role="group" aria-label="Filter by genre"><button class="filter is-active" type="button" data-genre-filter="all" aria-pressed="true">ALL TRACKS <span>{{ len $songs }}</span></button>{{ range .Site.Params.genres }}{{ $genre := . }}<button class="filter" type="button" data-genre-filter="{{ $genre }}" aria-pressed="false">{{ upper $genre }} <span>{{ len (where $songs "genre" $genre) }}</span></button>{{ end }}</div>
         <label class="search"><span class="search__icon" aria-hidden="true">⌕</span><span class="sr-only">Search songs, artists, or moods</span><input id="song-search" type="search" placeholder="Search the collection..." autocomplete="off"></label>

@@ -34,3 +34,5 @@
 .weekly__links a:hover{background:#171717;border-color:#171717;color:#fff}
 @media(max-width:900px){.weekly__list{grid-template-columns:1fr}}
 @media(max-width:520px){.weekly__item{grid-template-columns:27px 44px minmax(0,1fr) auto;gap:2px 7px;padding:9px}.weekly__rank{font-size:21px}.weekly__cover{font-size:19px}.weekly__song strong{font-size:14px}.weekly__song small{font-size:10px}.weekly__genre{display:none}.weekly__links a{font-size:7px;padding:5px}}
+
+.song-card__footer span{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}

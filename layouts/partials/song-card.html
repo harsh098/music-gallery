@@ -17,7 +17,7 @@
       {{ if $featured }}<span class="favorite-mark" aria-label="Metal spotlight pick">★</span>{{ end }}
     </div>
     {{ if $featured }}<p class="song-card__note">“{{ $song.note }}”</p>{{ end }}
-    <div class="song-card__footer"><span>{{ $song.album }}</span><span>{{ $song.source }}</span></div>
+    <div class="song-card__footer"><span title="{{ $song.album }}">{{ $song.album }}</span><span title="{{ $song.source }}">{{ $song.source }}</span></div>
     {{- $query := printf "%s %s" $song.title $song.artist | urlquery -}}
     {{- $spotify := printf "https://open.spotify.com/search/%s" $query -}}
     {{- $youtubeMusic := printf "https://music.youtube.com/search?q=%s" $query -}}
