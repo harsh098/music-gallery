@@ -5,6 +5,7 @@ disableKinds = ['taxonomy', 'term', 'RSS']
 
 [params]
   description = 'A personal gallery for the songs that stay with you.'
-  curator = 'Harsh M'
-  genres = ['Industrial Metal', 'Death Metal', 'Thrash Metal', 'Heavy Metal', 'NWOBHM', 'Metalcore', 'Alternative Metal', 'Nu Metal', 'Hard Rock', 'Grunge', 'Post-Grunge', 'Pop Punk', 'Alternative Rock', 'Hindi Rock', 'Ghazals', 'Hindi Film Music', 'Hip-Hop', 'EDM']
+  curator = 'Harsh Mishra'
+  homeURL = 'https://hmx86.cloud/'
+  genres = ['Industrial Metal', 'Death Metal', 'Thrash Metal', 'Groove Metal', 'Heavy Metal', 'NWOBHM', 'Metalcore', 'Alternative Metal', 'Nu Metal', 'Hard Rock', 'Grunge', 'Post-Grunge', 'Pop Punk', 'Alternative Rock', 'Hindi Rock', 'Ghazals', 'Hindi Film Music', 'Hip-Hop', 'EDM']
 

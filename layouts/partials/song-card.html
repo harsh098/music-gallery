@@ -1,6 +1,5 @@
 {{- $song := .song -}}
-{{- $featured := .featured | default false -}}
-<article class="song-card{{ if $featured }} song-card--featured{{ end }}" data-song-card data-genre="{{ $song.genre }}" data-search="{{ printf "%s %s %s %s %s" $song.title $song.artist $song.album $song.genre $song.mood | lower }}">
+<article class="song-card" data-song-card data-genre="{{ $song.genre }}" data-search="{{ printf "%s %s %s %s %s" $song.title $song.artist $song.album $song.genre $song.mood | lower }}">
   <div class="cover cover--{{ $song.color }}" aria-hidden="true">
     <div class="cover__grain"></div>
     <span class="cover__orbit"></span>
@@ -14,9 +13,7 @@
         <h3>{{ $song.title }}</h3>
         <p class="song-card__artist">{{ $song.artist }}</p>
       </div>
-      {{ if $featured }}<span class="favorite-mark" aria-label="Metal spotlight pick">★</span>{{ end }}
     </div>
-    {{ if $featured }}<p class="song-card__note">“{{ $song.note }}”</p>{{ end }}
     <div class="song-card__footer"><span title="{{ $song.album }}">{{ $song.album }}</span><span title="{{ $song.source }}">{{ $song.source }}</span></div>
     {{- $query := printf "%s %s" $song.title $song.artist | urlquery -}}
     {{- $spotify := printf "https://open.spotify.com/search/%s" $query -}}

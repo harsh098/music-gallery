@@ -10,9 +10,6 @@
   initials: "BT"
   color: "red"
   weekly_rank: 2
-  favorite: true
-  rank: 3
-  note: "A highlight from the heavier side of the collection."
 
 - title: "Those Left Behind"
   artist: "Immolation"
@@ -94,9 +91,6 @@
   initials: "D"
   color: "lime"
   weekly_rank: 8
-  favorite: true
-  rank: 6
-  note: "A highlight from the heavier side of the collection."
 
 - title: "Black Fathom's Fire"
   artist: "Incantation"
@@ -210,9 +204,6 @@
   initials: "SO"
   color: "blue"
   weekly_rank: 5
-  favorite: true
-  rank: 5
-  note: "A highlight from the heavier side of the collection."
 
 - title: "Like a Stone"
   artist: "Audioslave"
@@ -395,9 +386,6 @@
   initials: "LP"
   color: "slate"
   weekly_rank: 3
-  favorite: true
-  rank: 4
-  note: "A highlight from the heavier side of the collection."
 
 - title: "Bleed It Out"
   artist: "Linkin Park"
@@ -429,9 +417,6 @@
   initials: "R"
   color: "violet"
   weekly_rank: 1
-  favorite: true
-  rank: 1
-  note: "A highlight from the heavier side of the collection."
 
 - title: "Sonne"
   artist: "Rammstein"
@@ -454,9 +439,6 @@
   initials: "FF"
   color: "purple"
   weekly_rank: 4
-  favorite: true
-  rank: 2
-  note: "A highlight from the heavier side of the collection."
 
 - title: "Edgecrusher"
   artist: "Fear Factory"
@@ -1470,3 +1452,123 @@
   source: "Curated addition"
   initials: "D"
   color: "blue"
+
+- title: "Cowboys from Hell"
+  artist: "Pantera"
+  album: "Cowboys from Hell"
+  genre: "Groove Metal"
+  mood: "Heavy rotation"
+  year: 1990
+  source: "Curated addition"
+  initials: "PA"
+  color: "red"
+
+- title: "Cemetery Gates"
+  artist: "Pantera"
+  album: "Cowboys from Hell"
+  genre: "Groove Metal"
+  mood: "Heavy rotation"
+  year: 1990
+  source: "Curated addition"
+  initials: "PA"
+  color: "slate"
+
+- title: "Domination"
+  artist: "Pantera"
+  album: "Cowboys from Hell"
+  genre: "Groove Metal"
+  mood: "Heavy rotation"
+  year: 1990
+  source: "Curated addition"
+  initials: "PA"
+  color: "orange"
+
+- title: "Walk"
+  artist: "Pantera"
+  album: "Vulgar Display of Power"
+  genre: "Groove Metal"
+  mood: "Heavy rotation"
+  year: 1992
+  source: "Curated addition"
+  initials: "PA"
+  color: "amber"
+
+- title: "Mouth for War"
+  artist: "Pantera"
+  album: "Vulgar Display of Power"
+  genre: "Groove Metal"
+  mood: "Heavy rotation"
+  year: 1992
+  source: "Curated addition"
+  initials: "PA"
+  color: "violet"
+
+- title: "5 Minutes Alone"
+  artist: "Pantera"
+  album: "Far Beyond Driven"
+  genre: "Groove Metal"
+  mood: "Heavy rotation"
+  year: 1994
+  source: "Curated addition"
+  initials: "PA"
+  color: "lime"
+
+- title: "Blind"
+  artist: "Korn"
+  album: "Korn"
+  genre: "Nu Metal"
+  mood: "Heavy rotation"
+  year: 1994
+  source: "Curated addition"
+  initials: "KO"
+  color: "blue"
+
+- title: "Freak on a Leash"
+  artist: "Korn"
+  album: "Follow the Leader"
+  genre: "Nu Metal"
+  mood: "Heavy rotation"
+  year: 1998
+  source: "Curated addition"
+  initials: "KO"
+  color: "purple"
+
+- title: "Got the Life"
+  artist: "Korn"
+  album: "Follow the Leader"
+  genre: "Nu Metal"
+  mood: "Heavy rotation"
+  year: 1998
+  source: "Curated addition"
+  initials: "KO"
+  color: "coral"
+
+- title: "Falling Away from Me"
+  artist: "Korn"
+  album: "Issues"
+  genre: "Nu Metal"
+  mood: "Heavy rotation"
+  year: 1999
+  source: "Curated addition"
+  initials: "KO"
+  color: "yellow"
+
+- title: "Here to Stay"
+  artist: "Korn"
+  album: "Untouchables"
+  genre: "Nu Metal"
+  mood: "Heavy rotation"
+  year: 2002
+  source: "Curated addition"
+  initials: "KO"
+  color: "teal"
+
+- title: "Coming Undone"
+  artist: "Korn"
+  album: "See You on the Other Side"
+  genre: "Nu Metal"
+  mood: "Heavy rotation"
+  year: 2005
+  source: "Curated addition"
+  initials: "KO"
+  color: "rose"
