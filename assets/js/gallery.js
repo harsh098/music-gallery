@@ -31,6 +31,16 @@
     });
     update();
   }));
-  search.addEventListener('input', update);
+  search.addEventListener('input', () => {
+    if (search.value.trim() && activeGenre !== 'all') {
+      activeGenre = 'all';
+      filters.forEach((filter) => {
+        const selected = filter.dataset.genreFilter === 'all';
+        filter.classList.toggle('is-active', selected);
+        filter.setAttribute('aria-pressed', String(selected));
+      });
+    }
+    update();
+  });
 })();
 

@@ -90,7 +90,6 @@
   source: "Death Metal Mix"
   initials: "D"
   color: "lime"
-  weekly_rank: 8
 
 - title: "Black Fathom's Fire"
   artist: "Incantation"
@@ -293,7 +292,6 @@
   source: "Linkin Park Nostalgic"
   initials: "LP"
   color: "violet"
-  weekly_rank: 6
 
 - title: "Blackout"
   artist: "Linkin Park"
@@ -384,7 +382,6 @@
   source: "Collection009"
   initials: "LP"
   color: "slate"
-  weekly_rank: 3
 
 - title: "Bleed It Out"
   artist: "Linkin Park"
@@ -2063,6 +2060,8 @@
   color: "teal"
   year: 2010
   spotify_url: "https://open.spotify.com/track/3fCuN1zuk8NTtUTnKvNoeg"
+  aliases: "Hairat Hai Vishal-Shekhar Lucky Ali"
+  weekly_rank: 8
 
 - title: "Sajni"
   artist: "Jal"
@@ -2073,6 +2072,9 @@
   initials: "J"
   color: "rose"
   year: 2007
+  spotify_url: "https://open.spotify.com/track/3wLX0HwfAZlhT9ss18LGLY"
+  aliases: "Sajani Sajni Paas Bulao Na Jal Band"
+  weekly_rank: 6
 
 - title: "Sayonee"
   artist: "Junoon"
@@ -2305,3 +2307,517 @@
   year: 2011
   spotify_available: false
   youtube_url: "https://www.youtube.com/watch?v=5o3zH9zUmuM"
+
+- title: "Numb"
+  artist: "Linkin Park"
+  album: "Meteora"
+  genre: "Nu Metal"
+  mood: "On repeat"
+  source: "Requested addition"
+  initials: "LP"
+  color: "orange"
+  year: 2003
+  spotify_url: "https://open.spotify.com/track/2nLtzopw4rPReszdYBJU6h"
+  weekly_rank: 3
+
+- title: "Outside"
+  artist: "Staind"
+  album: "Break the Cycle"
+  genre: "Post-Grunge"
+  mood: "On repeat"
+  source: "Requested addition"
+  initials: "S"
+  color: "teal"
+  year: 2001
+  spotify_url: "https://open.spotify.com/track/6gLpS0BoZqImBVCYaEvPKd"
+
+- title: "Aaja We Mahiya"
+  artist: "Imran Khan"
+  album: "Unforgettable"
+  genre: "Punjabi Pop"
+  mood: "On repeat"
+  source: "Album: Unforgettable"
+  initials: "IK"
+  color: "violet"
+  year: 2009
+
+- title: "Hey Girl"
+  artist: "Imran Khan"
+  album: "Unforgettable"
+  genre: "Punjabi Pop"
+  mood: "On repeat"
+  source: "Album: Unforgettable"
+  initials: "IK"
+  color: "rose"
+  year: 2009
+
+- title: "Peli Waar"
+  artist: "Imran Khan"
+  album: "Unforgettable"
+  genre: "Punjabi Pop"
+  mood: "On repeat"
+  source: "Album: Unforgettable"
+  initials: "IK"
+  color: "blue"
+  year: 2009
+
+- title: "Chak Glass"
+  artist: "Imran Khan"
+  album: "Unforgettable"
+  genre: "Punjabi Pop"
+  mood: "On repeat"
+  source: "Album: Unforgettable"
+  initials: "IK"
+  color: "amber"
+  year: 2009
+
+- title: "Nazar"
+  artist: "Imran Khan"
+  album: "Unforgettable"
+  genre: "Punjabi Pop"
+  mood: "On repeat"
+  source: "Album: Unforgettable"
+  initials: "IK"
+  color: "lime"
+  year: 2009
+
+- title: "Superstar"
+  artist: "Imran Khan"
+  album: "Unforgettable"
+  genre: "Punjabi Pop"
+  mood: "On repeat"
+  source: "Album: Unforgettable"
+  initials: "IK"
+  color: "coral"
+  year: 2009
+
+- title: "Gora Gora Rang"
+  artist: "Imran Khan"
+  album: "Unforgettable"
+  genre: "Punjabi Pop"
+  mood: "On repeat"
+  source: "Album: Unforgettable"
+  initials: "IK"
+  color: "orange"
+  year: 2009
+
+- title: "Bounce Billo"
+  artist: "Imran Khan"
+  album: "Unforgettable"
+  genre: "Punjabi Pop"
+  mood: "On repeat"
+  source: "Album: Unforgettable"
+  initials: "IK"
+  color: "teal"
+  year: 2009
+
+- title: "Ni Nachleh"
+  artist: "Imran Khan"
+  album: "Unforgettable"
+  genre: "Punjabi Pop"
+  mood: "On repeat"
+  source: "Album: Unforgettable"
+  initials: "IK"
+  color: "violet"
+  year: 2009
+
+- title: "40 Pra"
+  artist: "Imran Khan"
+  album: "Unforgettable"
+  genre: "Punjabi Pop"
+  mood: "On repeat"
+  source: "Album: Unforgettable"
+  initials: "IK"
+  color: "rose"
+  year: 2009
+
+- title: "Pata Chalgea"
+  artist: "Imran Khan"
+  album: "Unforgettable"
+  genre: "Punjabi Pop"
+  mood: "On repeat"
+  source: "Album: Unforgettable"
+  initials: "IK"
+  color: "blue"
+  year: 2009
+
+- title: "Bewafa"
+  artist: "Imran Khan"
+  album: "Unforgettable"
+  genre: "Punjabi Pop"
+  mood: "On repeat"
+  source: "Album: Unforgettable"
+  initials: "IK"
+  color: "amber"
+  year: 2009
+
+- title: "Nai Reina"
+  artist: "Imran Khan"
+  album: "Unforgettable"
+  genre: "Punjabi Pop"
+  mood: "On repeat"
+  source: "Album: Unforgettable"
+  initials: "IK"
+  color: "lime"
+  year: 2009
+
+- title: "Qott Ghusian Da"
+  artist: "Imran Khan"
+  album: "Unforgettable"
+  genre: "Punjabi Pop"
+  mood: "On repeat"
+  source: "Album: Unforgettable"
+  initials: "IK"
+  color: "coral"
+  year: 2009
+
+- title: "Mitran Di Chhatri"
+  artist: "Babbu Maan"
+  album: "Pyaas"
+  genre: "Punjabi Pop"
+  mood: "On repeat"
+  source: "Requested addition"
+  initials: "BM"
+  color: "orange"
+  year: 2005
+
+- title: "Dil Tan Pagal Hai"
+  artist: "Babbu Maan"
+  album: "Saaun Di Jhadi"
+  genre: "Punjabi Pop"
+  mood: "On repeat"
+  source: "Requested addition"
+  initials: "BM"
+  color: "teal"
+  year: 2001
+
+- title: "Kabza"
+  artist: "Babbu Maan"
+  album: "Saaun Di Jhadi"
+  genre: "Punjabi Pop"
+  mood: "On repeat"
+  source: "Requested addition"
+  initials: "BM"
+  color: "violet"
+  year: 2001
+
+- title: "Pind Pehra Lagda"
+  artist: "Babbu Maan"
+  album: "Tu Meri Miss India"
+  genre: "Punjabi Pop"
+  mood: "On repeat"
+  source: "Requested addition"
+  initials: "BM"
+  color: "rose"
+  year: 1999
+
+- title: "Ohi Chann Ohi Rataan"
+  artist: "Babbu Maan"
+  album: "Ohi Chann Ohi Rataan"
+  genre: "Punjabi Pop"
+  mood: "On repeat"
+  source: "Requested addition"
+  initials: "BM"
+  color: "blue"
+  year: 2004
+
+- title: "Jeth Da Dupehra"
+  artist: "Babbu Maan"
+  album: "Hashar"
+  genre: "Punjabi Pop"
+  mood: "On repeat"
+  source: "Requested addition"
+  initials: "BM"
+  color: "amber"
+  year: 2008
+
+- title: "London"
+  artist: "Money Aujla & Nesdi Jones"
+  album: "London (Single)"
+  genre: "Punjabi Pop"
+  mood: "On repeat"
+  source: "Requested addition"
+  initials: "MA"
+  color: "lime"
+  year: 2014
+  aliases: "Yo Yo Honey Singh"
+  youtube_url: "https://www.youtube.com/watch?v=MhlecL-gx4s"
+
+- title: "Hummer"
+  artist: "Nishawn Bhullar feat. Yo Yo Honey Singh"
+  album: "The Folk Star"
+  genre: "Punjabi Pop"
+  mood: "On repeat"
+  source: "Requested addition"
+  initials: "NB"
+  color: "coral"
+  year: 2010
+
+- title: "Chaska"
+  artist: "Raja Baath feat. Yo Yo Honey Singh"
+  album: "The Crown"
+  genre: "Punjabi Pop"
+  mood: "On repeat"
+  source: "Requested addition"
+  initials: "RB"
+  color: "orange"
+  year: 2009
+  aliases: "Chaska e Yaara Nu Chaska Ae Yaaran Nu"
+  youtube_url: "https://www.youtube.com/watch?v=-ZkhD81B1eA"
+
+- title: "Yaar Bathere"
+  artist: "Alfaaz feat. Yo Yo Honey Singh"
+  album: "Alfaaz"
+  genre: "Punjabi Pop"
+  mood: "On repeat"
+  source: "Requested addition"
+  initials: "AF"
+  color: "teal"
+  year: 2011
+  aliases: "Yaar Bhatere"
+
+- title: "Banda Marna"
+  artist: "Balli Riar feat. Yo Yo Honey Singh"
+  album: "Never Done Before"
+  genre: "Punjabi Pop"
+  mood: "On repeat"
+  source: "Requested addition"
+  initials: "BR"
+  color: "violet"
+  year: 2011
+  aliases: "Bandaa Marna"
+  youtube_url: "https://www.youtube.com/watch?v=QuEVyfCy0gU"
+
+- title: "3 Peg"
+  artist: "Sharry Mann"
+  album: "3 Peg (Single)"
+  genre: "Punjabi Pop"
+  mood: "On repeat"
+  source: "Requested addition"
+  initials: "SM"
+  color: "rose"
+  year: 2016
+  aliases: "3 Pegg"
+
+- title: "Yaar Anmulle"
+  artist: "Sharry Mann"
+  album: "Yaar Anmulle"
+  genre: "Punjabi Pop"
+  mood: "On repeat"
+  source: "Requested addition"
+  initials: "SM"
+  color: "blue"
+  year: 2011
+
+- title: "Adhi Adhi Raat"
+  artist: "Bilal Saeed"
+  album: "Twelve"
+  genre: "Punjabi Pop"
+  mood: "On repeat"
+  source: "Album: Twelve"
+  initials: "BS"
+  color: "amber"
+  year: 2012
+
+- title: "Ku Ku"
+  artist: "Bilal Saeed"
+  album: "Twelve"
+  genre: "Punjabi Pop"
+  mood: "On repeat"
+  source: "Album: Twelve"
+  initials: "BS"
+  color: "lime"
+  year: 2012
+
+- title: "12 Saal"
+  artist: "Bilal Saeed"
+  album: "Twelve"
+  genre: "Punjabi Pop"
+  mood: "On repeat"
+  source: "Album: Twelve"
+  initials: "BS"
+  color: "coral"
+  year: 2012
+
+- title: "2 Number"
+  artist: "Bilal Saeed"
+  album: "Twelve"
+  genre: "Punjabi Pop"
+  mood: "On repeat"
+  source: "Album: Twelve"
+  initials: "BS"
+  color: "orange"
+  year: 2012
+
+- title: "Heeriye"
+  artist: "Bilal Saeed"
+  album: "Twelve"
+  genre: "Punjabi Pop"
+  mood: "On repeat"
+  source: "Album: Twelve"
+  initials: "BS"
+  color: "teal"
+  year: 2012
+
+- title: "Mahi Mahi"
+  artist: "Bilal Saeed"
+  album: "Twelve"
+  genre: "Punjabi Pop"
+  mood: "On repeat"
+  source: "Album: Twelve"
+  initials: "BS"
+  color: "violet"
+  year: 2012
+
+- title: "Mahiya"
+  artist: "Bilal Saeed"
+  album: "Twelve"
+  genre: "Punjabi Pop"
+  mood: "On repeat"
+  source: "Album: Twelve"
+  initials: "BS"
+  color: "rose"
+  year: 2012
+
+- title: "Ja Jay Tu Jana"
+  artist: "Bilal Saeed"
+  album: "Twelve"
+  genre: "Punjabi Pop"
+  mood: "On repeat"
+  source: "Album: Twelve"
+  initials: "BS"
+  color: "blue"
+  year: 2012
+
+- title: "Teri Khair Mangdi"
+  artist: "Bilal Saeed"
+  album: "Twelve"
+  genre: "Punjabi Pop"
+  mood: "On repeat"
+  source: "Album: Twelve"
+  initials: "BS"
+  color: "amber"
+  year: 2012
+
+- title: "Dil"
+  artist: "Bilal Saeed"
+  album: "Twelve"
+  genre: "Punjabi Pop"
+  mood: "On repeat"
+  source: "Album: Twelve"
+  initials: "BS"
+  color: "lime"
+  year: 2012
+
+- title: "Ijazat"
+  artist: "Bilal Saeed"
+  album: "Twelve"
+  genre: "Punjabi Pop"
+  mood: "On repeat"
+  source: "Album: Twelve"
+  initials: "BS"
+  color: "coral"
+  year: 2012
+
+- title: "Baari"
+  artist: "Bilal Saeed & Momina Mustehsan"
+  album: "Baari (Single)"
+  genre: "Punjabi Pop"
+  mood: "On repeat"
+  source: "Requested addition"
+  initials: "BS"
+  color: "orange"
+  year: 2019
+
+- title: "Uchiyaan Dewaraan"
+  artist: "Bilal Saeed"
+  album: "Uchiyaan Dewaraan (Single)"
+  genre: "Punjabi Pop"
+  mood: "On repeat"
+  source: "Requested addition"
+  initials: "BS"
+  color: "teal"
+  year: 2020
+
+- title: "No Make Up"
+  artist: "Bilal Saeed feat. Bohemia"
+  album: "No Make Up (Single)"
+  genre: "Punjabi Pop"
+  mood: "On repeat"
+  source: "Requested addition"
+  initials: "BS"
+  color: "violet"
+  year: 2017
+
+- title: "Paranday"
+  artist: "Bilal Saeed"
+  album: "Paranday (Single)"
+  genre: "Punjabi Pop"
+  mood: "On repeat"
+  source: "Requested addition"
+  initials: "BS"
+  color: "rose"
+  year: 2016
+
+- title: "Lambiya Judaiyan"
+  artist: "Bilal Saeed"
+  album: "Lambiya Judaiyan (Single)"
+  genre: "Punjabi Pop"
+  mood: "On repeat"
+  source: "Requested addition"
+  initials: "BS"
+  color: "blue"
+  year: 2018
+
+- title: "Wakhra Swag"
+  artist: "Navv Inder feat. Badshah"
+  album: "Wakhra Swag (Single)"
+  genre: "Punjabi Pop"
+  mood: "On repeat"
+  source: "Requested addition"
+  initials: "NI"
+  color: "amber"
+  year: 2015
+
+- title: "Mitti Di Khushboo"
+  artist: "Ayushmann Khurrana"
+  album: "Mitti Di Khushboo (Single)"
+  genre: "Punjabi Pop"
+  mood: "On repeat"
+  source: "Requested addition"
+  initials: "AK"
+  color: "lime"
+  year: 2014
+  aliases: "Mitti Di Khushbu"
+
+- title: "Pani Da Rang"
+  artist: "Ayushmann Khurrana"
+  album: "Vicky Donor"
+  genre: "Hindi Film Music"
+  mood: "On repeat"
+  source: "Requested addition"
+  initials: "AK"
+  color: "coral"
+  year: 2012
+  aliases: "Paani Da Rang Paani Da"
+
+- title: "Ambarsariya"
+  artist: "Sona Mohapatra"
+  album: "Fukrey"
+  genre: "Hindi Film Music"
+  mood: "On repeat"
+  source: "Requested addition"
+  initials: "SM"
+  color: "orange"
+  year: 2013
+  aliases: "Amarsariya"
+
+- title: "Dildarian"
+  artist: "Amrinder Gill"
+  album: "Dildarian"
+  genre: "Punjabi Pop"
+  mood: "On repeat"
+  source: "Requested addition"
+  initials: "AG"
+  color: "teal"
+  year: 2005

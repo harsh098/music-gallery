@@ -1,5 +1,5 @@
 {{- $song := .song -}}
-<article class="song-card" data-song-card data-genre="{{ $song.genre }}" data-search="{{ printf "%s %s %s %s %s" $song.title $song.artist $song.album $song.genre $song.mood | lower }}">
+<article class="song-card" data-song-card data-genre="{{ $song.genre }}" data-search="{{ printf "%s %s %s %s %s %s" $song.title $song.artist $song.album $song.genre $song.mood $song.aliases | lower }}">
   <div class="cover cover--{{ $song.color }}" aria-hidden="true">
     <div class="cover__grain"></div>
     <span class="cover__orbit"></span>
