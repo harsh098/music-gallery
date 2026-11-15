@@ -19,7 +19,7 @@
     main.removeAttribute('inert');
     header.removeAttribute('inert');
     footer.removeAttribute('inert');
-    header.querySelector('.v2-logo').focus();
+    main.focus({ preventScroll: true });
   }
 
   document.documentElement.classList.add('v2-entry-open');
