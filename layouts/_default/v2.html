@@ -4,33 +4,35 @@
 {{- range $songs }}{{ if .weekly_rank }}{{ $weekly = append . $weekly }}{{ end }}{{ end -}}
 {{- $weekly = sort $weekly "weekly_rank" -}}
 <div class="v2-shell" id="top">
+  <div class="v2-entry" id="v2-entry" role="dialog" aria-modal="true" aria-labelledby="v2-entry-title" aria-describedby="v2-entry-copy">
+    <div class="v2-entry__panel">
+      <img class="v2-entry__image" src="{{ "images/hmx.jpg" | relURL }}" alt="HMX" width="1024" height="768">
+      <div class="v2-entry__content">
+        <span class="v2-entry__label">BEFORE YOU ENTER</span>
+        <h1 id="v2-entry-title">Safe for family.<br><em>Not what you think.</em></h1>
+        <p id="v2-entry-copy">This is The Listening Room: music categories, song picks, and links to Spotify and YouTube. Nothing NSFW.</p>
+        <button class="v2-entry__button" id="v2-enter" type="button">ENTER THE MUSIC GALLERY <span aria-hidden="true">▶</span></button>
+      </div>
+    </div>
+  </div>
   <header class="v2-header">
     <a class="v2-logo" href="#top" aria-label="HMXhub, The Listening Room"><span>HMX</span><b>hub</b></a>
     <span class="v2-header__tag">THE LISTENING ROOM / AFTER DARK</span>
     <nav class="v2-nav" aria-label="Main navigation">
       <a href="#trending">TRENDING</a>
       <a href="#library">CATEGORIES</a>
-      <a href="{{ "" | relURL }}">ORIGINAL VIEW ↗</a>
+      <a href="{{ .Site.Params.homeurl }}">HMX86.CLOUD ↗</a>
     </nav>
   </header>
 
   <main>
-    <section class="v2-hero" aria-labelledby="v2-title">
-      <div class="v2-hero__copy">
-        <span class="v2-live"><span></span> YOUR TAB IS SAFE</span>
-        <h1 id="v2-title">Caught you<br><em>listening.</em></h1>
-        <p>Relax. It’s a music gallery. All the drama is in the guitars.</p>
-        <div class="v2-hero__actions"><a class="v2-button" href="#trending">SEE WHAT’S TRENDING <span aria-hidden="true">▶</span></a><a class="v2-quiet-link" href="#library">BROWSE ALL {{ len $songs }} TRACKS ↓</a></div>
+    <div class="v2-category-bar" aria-label="Music categories">
+      <span class="v2-category-bar__label">CATEGORIES</span>
+      <div class="v2-filters" role="group" aria-label="Filter by genre">
+        <button type="button" class="v2-filter is-active" data-genre-filter="all" aria-pressed="true">ALL <span>{{ len $songs }}</span></button>
+        {{ range .Site.Params.genres }}{{ $genre := . }}{{ $count := len (where $songs "genre" $genre) }}{{ if gt $count 0 }}<button type="button" class="v2-filter" data-genre-filter="{{ $genre }}" aria-pressed="false">{{ upper $genre }} <span>{{ $count }}</span></button>{{ end }}{{ end }}
       </div>
-      <div class="v2-hero__poster" aria-hidden="true">
-        <div class="v2-poster__corner">100% SFW</div>
-        <div class="v2-poster__play">▶</div>
-        <div class="v2-poster__lines"><span>PLAY</span><span>IT</span><strong>LOUD.</strong></div>
-        <div class="v2-poster__bottom">MUSIC IS THE ONLY THING HAPPENING HERE <span>HMX86</span></div>
-      </div>
-    </section>
-
-    <div class="v2-reveal"><span>✦</span> NOTHING NSFW. JUST A VERY QUESTIONABLE DESIGN CHOICE. <span>✦</span></div>
+    </div>
 
     {{ if eq (len $weekly) 10 }}
     <section class="v2-section" id="trending" aria-labelledby="trending-title">
@@ -45,10 +47,6 @@
       <div class="v2-section__head"><div><span class="v2-kicker">THE FULL COLLECTION</span><h2 id="library-title">All <em>tracks</em></h2></div><p>Every card opens music on Spotify or YouTube. No audio is hosted here.</p></div>
       <div class="v2-toolbar">
         <label class="v2-search"><span aria-hidden="true">⌕</span><span class="sr-only">Search songs, artists, and albums</span><input id="v2-search" type="search" placeholder="Search songs, artists, albums..." autocomplete="off"></label>
-        <div class="v2-filters" role="group" aria-label="Filter by genre">
-          <button type="button" class="v2-filter is-active" data-genre-filter="all" aria-pressed="true">ALL <span>{{ len $songs }}</span></button>
-          {{ range .Site.Params.genres }}{{ $genre := . }}{{ $count := len (where $songs "genre" $genre) }}{{ if gt $count 0 }}<button type="button" class="v2-filter" data-genre-filter="{{ $genre }}" aria-pressed="false">{{ upper $genre }} <span>{{ $count }}</span></button>{{ end }}{{ end }}
-        </div>
       </div>
       <div class="v2-results" id="v2-results" aria-live="polite">SHOWING {{ len $songs }} TRACKS</div>
       <div class="v2-groups">
@@ -63,6 +61,6 @@
     </section>
   </main>
 
-  <footer class="v2-footer"><div><a class="v2-logo v2-logo--footer" href="#top"><span>HMX</span><b>hub</b></a><p>The Listening Room · Made with ♥ by Harsh Mishra and Codex.</p><small>© {{ now.Year }}. I own none of the music or recordings linked here. Rights belong to their respective owners.</small></div><div class="v2-footer__links"><a href="{{ "" | relURL }}">ORIGINAL VIEW ↗</a><a href="{{ .Site.Params.homeurl }}">HMX86.CLOUD ↗</a><a href="#top">BACK TO TOP ↑</a></div></footer>
+  <footer class="v2-footer"><div><a class="v2-logo v2-logo--footer" href="#top"><span>HMX</span><b>hub</b></a><p>The Listening Room · Made with ♥ by Harsh Mishra and Codex.</p><small>© {{ now.Year }}. I own none of the music or recordings linked here. Rights belong to their respective owners.</small></div><div class="v2-footer__links"><a href="{{ .Site.Params.homeurl }}">HMX86.CLOUD ↗</a><a href="#top">BACK TO TOP ↑</a></div></footer>
 </div>
 {{ end }}
