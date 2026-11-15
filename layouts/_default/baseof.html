@@ -3,15 +3,15 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#101010">
-    <meta name="description" content="{{ .Site.Params.description }}">
-    <title>{{ .Site.Title }}</title>
+    <meta name="theme-color" content="{{ if eq .Params.variant "v2" }}#111111{{ else }}#101010{{ end }}">
+    <meta name="description" content="{{ with .Params.description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+    <title>{{ if eq .Params.variant "v2" }}HMXhub — The Listening Room{{ else }}{{ .Site.Title }}{{ end }}</title>
     <link rel="icon" href="{{ "images/favicon.svg" | relURL }}" type="image/svg+xml">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
-    {{ $css := resources.Get "css/style.css" | fingerprint }}
-    {{ $js := resources.Get "js/gallery.js" | fingerprint }}
+    {{ $css := resources.Get (cond (eq .Params.variant "v2") "css/v2.css" "css/style.css") | fingerprint }}
+    {{ $js := resources.Get (cond (eq .Params.variant "v2") "js/v2.js" "js/gallery.js") | fingerprint }}
     <link rel="stylesheet" href="{{ $css.RelPermalink }}">
     <script src="{{ $js.RelPermalink }}" defer></script>
   </head>

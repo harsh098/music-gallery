@@ -1,0 +1,19 @@
+{{- $song := .song -}}
+{{- $query := printf "%s %s" $song.title $song.artist | urlquery -}}
+{{- $spotify := printf "https://open.spotify.com/search/%s" $query -}}
+{{- $youtube := printf "https://music.youtube.com/search?q=%s" $query -}}
+{{- with $song.spotify_url }}{{ $spotify = . }}{{ end -}}
+{{- with $song.youtube_music_url }}{{ $youtube = . }}{{ end -}}
+{{- with $song.youtube_url }}{{ $youtube = . }}{{ end -}}
+{{- $primary := $spotify -}}
+{{- if eq $song.spotify_available false }}{{ $primary = $youtube }}{{ end -}}
+<article class="v2-card" data-song-card data-genre="{{ $song.genre }}" data-search="{{ printf "%s %s %s %s %s" $song.title $song.artist $song.album $song.genre (default "" $song.aliases) | lower }}">
+  <a class="v2-card__thumb v2-color--{{ $song.color }}" href="{{ $primary }}" target="_blank" rel="noopener noreferrer" aria-label="Find {{ $song.title }} by {{ $song.artist }} (opens in new tab)">
+    {{ with .rank }}<span class="v2-card__rank">#{{ printf "%02d" . }}</span>{{ end }}
+    <span class="v2-card__genre">{{ upper $song.genre }}</span>
+    <span class="v2-card__initials" aria-hidden="true">{{ $song.initials }}</span>
+    <span class="v2-card__play" aria-hidden="true">▶</span>
+    <span class="v2-card__album">{{ $song.album }}</span>
+  </a>
+  <div class="v2-card__info"><h3>{{ $song.title }}</h3><p>{{ $song.artist }}</p><div class="v2-card__links">{{ if ne $song.spotify_available false }}<a href="{{ $spotify }}" target="_blank" rel="noopener noreferrer">SPOTIFY ↗</a>{{ end }}<a href="{{ $youtube }}" target="_blank" rel="noopener noreferrer">{{ if $song.youtube_url }}YOUTUBE{{ else }}YOUTUBE MUSIC{{ end }} ↗</a></div></div>
+</article>
